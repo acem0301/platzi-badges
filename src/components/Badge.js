@@ -1,11 +1,11 @@
 import React from "react";
-
+import confLogo from "../images/badge-header.svg";
 class Badge extends React.Component {
   render() {
     return (
       <div>
         <div>
-          <img src="" alt="Logo Conferencia" />
+          <img src={confLogo} alt="Logo Conferencia" />
         </div>
 
         <div>
@@ -15,12 +15,12 @@ class Badge extends React.Component {
         </div>
 
         <div>
-          <img src="" alt="Avatar" />
+          <img src="https://www.gravatar.com/avatar?d=identicon" alt="Avatar" />
           <p>FrontEnd Engineer</p>
           <p>@acem0301</p>
         </div>
 
-        <div>#platziConf</div>
+        <div>#platziConxf</div>
       </div>
     );
   }
